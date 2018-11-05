@@ -26,5 +26,6 @@ spec:
   - route:
     - destination:
         host: nginx
+        subset: v1
         port:
           number: 80
